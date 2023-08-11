@@ -29,3 +29,5 @@ VALUES
 ("C0723G1");
 
 SELECT * FROM class;
+
+ALTER TABLE class RENAME class_room;
