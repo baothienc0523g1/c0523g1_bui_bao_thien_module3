@@ -31,3 +31,4 @@ VALUES
 SELECT * FROM class;
 
 ALTER TABLE class RENAME class_room;
+class
