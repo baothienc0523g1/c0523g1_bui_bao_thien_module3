@@ -1,5 +1,5 @@
-create database case_study;
-use case_study;
+create database case_study_database;
+use case_study_database;
 
 CREATE TABLE vi_tri (
     ma_vi_tri INT PRIMARY KEY AUTO_INCREMENT,
@@ -255,4 +255,3 @@ values
 (1,1,3),
 (2,1,2),
 (2,12,2);
-
