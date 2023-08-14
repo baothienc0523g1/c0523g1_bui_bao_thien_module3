@@ -33,15 +33,15 @@ ten_loai_khach, ma_hop_dong, ten_dich_vu, ngay_lam_hop_dong,
  là từ bảng dich_vu_di_kem, hop_dong_chi_tiet) cho tất cả các khách hàng đã từng đặt phòng.
  (những khách hàng nào chưa từng đặt phòng cũng phải hiển thị ra).*/
 
-select k.ma_khach_hang, k.ho_ten, l.ten_loai_khach, h.ma_hop_dong,
-d.ten_dich_vu, h.ngay_lam_hop_dong, h.ngay_ket_thuc, 
-d.chi_phi_thue + dvdk.gia * hdct.so_luong as total
+select k.ma_khach_hang, k.ho_ten, l.ten_loai_khach, h.ma_hop_dong, ten_dich_vu, ngay_lam_hop_dong, ngay_ket_thuc,
+if (hdct.so_luong is null, d.chi_phi_thue,d.chi_phi_thue + hdct.so_luong * dvdk.gia) as 'total'
 from khach_hang as k
 left join loai_khach as l on k.ma_loai_khach = l.ma_loai_khach
 left join hop_dong as h on k.ma_khach_hang = h.ma_khach_hang
 left join dich_vu as d on h.ma_dich_vu = d.ma_dich_vu
 left join hop_dong_chi_tiet as hdct on hdct.ma_hop_dong = h.ma_hop_dong
 left join dich_vu_di_kem as dvdk on hdct.ma_dich_vu_di_kem = dvdk.ma_dich_vu_di_kem
+group by h.ma_hop_dong
 order by k.ma_khach_hang;
 
 
