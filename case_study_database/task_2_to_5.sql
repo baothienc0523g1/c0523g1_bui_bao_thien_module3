@@ -32,9 +32,8 @@ ten_loai_khach, ma_hop_dong, ten_dich_vu, ngay_lam_hop_dong,
  Chi Phí Thuê + Số Lượng * Giá, với Số Lượng và Giá 
  là từ bảng dich_vu_di_kem, hop_dong_chi_tiet) cho tất cả các khách hàng đã từng đặt phòng.
  (những khách hàng nào chưa từng đặt phòng cũng phải hiển thị ra).*/
-
 select k.ma_khach_hang, k.ho_ten, l.ten_loai_khach, h.ma_hop_dong, ten_dich_vu, ngay_lam_hop_dong, ngay_ket_thuc,
-sum(if (hdct.so_luong is null, d.chi_phi_thue,d.chi_phi_thue + hdct.so_luong * dvdk.gia))as 'total'
+sum(if (hdct.so_luong is null, d.chi_phi_thue,d.chi_phi_thue + hdct.so_luong * dvdk.gia)) as 'total'
 from khach_hang as k
 left join loai_khach as l on k.ma_loai_khach = l.ma_loai_khach
 left join hop_dong as h on k.ma_khach_hang = h.ma_khach_hang
