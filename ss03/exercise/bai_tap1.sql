@@ -1,4 +1,4 @@
-use quan_ly_sinh_vien;
+use ss4_quan_ly_sinh_vien;
 
 /* Hiển thị tất cả các sinh viên có tên bắt đầu bảng ký tự ‘h’*/
 select * from student where student_name like "h%";
@@ -18,9 +18,9 @@ set sql_safe_updates = 1;
 /* Hiển thị các thông tin: StudentName, SubName, Mark.
  Dữ liệu sắp xếp theo điểm thi (mark) giảm dần. nếu trùng sắp theo tên tăng dần. */
  select student_name, sub_name, mark
- from student as s
- join `subject` as sub
+ from students as s
+ join subjects as sub
  on s.student_id = sub.sub_id
- join mark as m
+ join marks as m
  on sub.sub_id = m.sub_id
- order by mark desc;
+ order by mark desc, sub.sub_name;

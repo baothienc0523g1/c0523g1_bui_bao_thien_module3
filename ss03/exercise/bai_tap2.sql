@@ -60,8 +60,6 @@ values
 (2,5,4),
 (2,3,3);
 
-
-
 /*Hiển thị các thông tin  gồm 
 oID, oDate, oPrice của tất cả các hóa đơn trong bảng Order*/
 select * from orders;
@@ -94,4 +92,5 @@ where o.customer_id is null;
  right join orders as o
  on detail.order_id = o.order_id
  join products as p
- on detail.product_id = p.product_id;
+ on detail.product_id = p.product_id
+ group by o.order_id;
