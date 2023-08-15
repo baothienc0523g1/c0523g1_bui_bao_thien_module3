@@ -65,13 +65,21 @@ values
 (2,1,12,1);
 
 -- Hiển thị tất cả các thông tin môn học (bảng subject) có credit lớn nhất.
-select max(credit) as "largest credit", sub_id as "subjects id" , sub_name "subject name"
+select sub_id as "subjects id" , sub_name "subject name", max(credit) as "largest credit"
 from subjects;
 
 -- Hiển thị các thông tin môn học có điểm thi lớn nhất.
+select s.sub_name, max(mark) 
+from subjects as s 
+join marks as m
+on s.sub_id = m.sub_id;
 
 /* Hiển thị các thông tin sinh viên và điểm trung bình 
 của mỗi sinh viên, xếp hạng theo thứ tự điểm giảm dần */
-
- 
+select s.student_id, s.student_name, s.class_id, avg(mark)
+from students as s
+join marks as m
+on s.student_id = m.student_id
+group by s.student_id
+order by avg(mark) desc;
  
