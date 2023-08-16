@@ -46,7 +46,7 @@ FROM products where product_name = 'But bi';
 select * from v_product_info;
 drop view v_product_info;
 
-
+-- FIND ALL PRODUCT
 delimiter //
 create procedure findAllProduct()
 begin
@@ -57,19 +57,59 @@ end //
 delimiter ;
 call findAllProduct();
 
-
+-- ADD NEW PRODUCT
 delimiter //
-create procedure editProduct(id int)
+create procedure addProduct(
+    input_code VARCHAR(10),
+    input_name VARCHAR(50),
+    input_price DOUBLE,
+    input_amount DOUBLE,
+    input_description VARCHAR(155),
+    input_status BIT(1))
 begin
+insert into products(product_code, product_name, product_price, product_amount,
+product_description, product_status)
+value (input_code, input_name, input_price, input_amount, input_description, input_status);
 end //
 delimiter ;
 
+-- EDIT PRODUCT
 delimiter //
-create procedure removeProduct(int input_id)
+create procedure editProduct(
+	input_id int,
+	input_code VARCHAR(10),
+    input_name VARCHAR(50),
+    input_price DOUBLE,
+    input_amount DOUBLE,
+    input_description VARCHAR(155),
+    input_status BIT(1))
+begin
+update products
+set 
+product_code = input_code,
+product_name = input_name,
+product_price = input_price,
+product_amount = input_amount,
+product_description = input_description,
+product_status = input_status
+where id = input_id;
+end //
+delimiter ;
+select id, product_name, product_price,product_amount,product_description
+from products;
+call editProduct(1, 'BBB','But bi bi', 3500, 500, 'But bi Long Thien',1);
+select id, product_name, product_price,product_amount,product_description
+from products;
+
+-- REMOVE PRODUCT
+delimiter //
+create procedure removeProduct(input_id int)
 begin
 delete from products
 where id = input_id;
-end;
+end //
 delimiter ;
-
+call removeProduct(5);
+select id, product_name, product_price,product_amount,product_description
+from products;
 
