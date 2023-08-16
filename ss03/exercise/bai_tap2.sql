@@ -86,8 +86,8 @@ where o.customer_id is null;
  (giá một hóa đơn được tính bằng tổng giá bán của
  từng loại mặt hàng xuất hiện trong hóa đơn. 
  Giá bán của từng loại được tính = odQTY*pPrice)*/
- select detail.order_id, o.order_day, p.product_name,order_quantity,
- (order_quantity * product_price) as total_price
+ select detail.order_id, o.order_day,
+ sum(order_quantity * product_price) as total_price
  from order_detail as detail
  right join orders as o
  on detail.order_id = o.order_id
