@@ -70,10 +70,7 @@ HAVING so_luong_dich_vu_di_kem = (SELECT
     ORDER BY SUM(so_luong) DESC
     LIMIT 1);
  
- /* 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được 
- sử dụng một lần duy nhất. Thông tin hiển thị bao gồm ma_hop_dong, 
- ten_loai_dich_vu, ten_dich_vu_di_kem, so_lan_su_dung 
- (được tính dựa trên việc count các ma_dich_vu_di_kem).*/
+ -- Task 14
 SELECT 
     h.ma_hop_dong,
     l.ten_loai_dich_vu,
