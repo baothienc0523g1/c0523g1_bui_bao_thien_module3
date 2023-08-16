@@ -48,18 +48,18 @@ drop view v_product_info;
 
 -- FIND ALL PRODUCT
 delimiter //
-create procedure findAllProduct()
+create procedure f_find_all_product()
 begin
 select id, product_code, product_name, product_price, 
 product_amount, product_description, product_status
 from products;
 end //
 delimiter ;
-call findAllProduct();
+call find_all_product();
 
 -- ADD NEW PRODUCT
 delimiter //
-create procedure addProduct(
+create procedure f_add_product(
     input_code VARCHAR(10),
     input_name VARCHAR(50),
     input_price DOUBLE,
@@ -75,7 +75,7 @@ delimiter ;
 
 -- EDIT PRODUCT
 delimiter //
-create procedure editProduct(
+create procedure f_edit_product(
 	input_id int,
 	input_code VARCHAR(10),
     input_name VARCHAR(50),
@@ -97,19 +97,21 @@ end //
 delimiter ;
 select id, product_name, product_price,product_amount,product_description
 from products;
-call editProduct(1, 'BBB','But bi bi', 3500, 500, 'But bi Long Thien',1);
+
+call f_edit_product(1, 'BBB','But bi bi', 3500, 500, 'But bi Long Thien',1);
+
 select id, product_name, product_price,product_amount,product_description
 from products;
 
 -- REMOVE PRODUCT
 delimiter //
-create procedure removeProduct(input_id int)
+create procedure f_remove_product(input_id int)
 begin
 delete from products
 where id = input_id;
 end //
 delimiter ;
-call removeProduct(5);
+call f_remove_product(5);
 select id, product_name, product_price,product_amount,product_description
 from products;
 
