@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+#header {
+    background: peru;
+    height: 100px;
+    width: 1000%;
+}
+#main {
+    background: coral;
+    height: 200px;
+    width: 1000%;
+}
+#footer {
+    background: cadetblue;
+    height: 100px;
+    width: 1000%;
+}

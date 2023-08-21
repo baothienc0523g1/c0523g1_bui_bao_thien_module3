@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Tahoma, serif;
+    font-size: 16px;
+}
+
+#main {
+    width: 1200px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    height: 100px;
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+#head-link {
+    height: 30px;
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#left-content {
+    width: 30%;
+    height: 800px;
+    background: white;
+    border: 1px solid #cdcdcd;
+    float: left;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#right-content {
+    width: 70%;
+    height: 800px;
+    background: white;
+    border: 1px solid #cdcdcd;
+    float: left;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+#footer {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: white;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    clear: both;
+    box-sizing: border-box;
+}
+a {
+    font-style: italic;
+    text-decoration: none;
+}
+#bonus {
+    margin: 5px;
+    text-align: center;
+}
+#about-us {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+}
+#about-us p {
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    font-family: Tahoma;
+}
+#logo {
+    position: absolute;
+    width: auto;
+    height: 100px;
+    float: left;
+}
+#title-logo {
+    position: relative;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: block;
+    text-align: center;
+}
+iframe {
+    width: 100%;
+}
+#left-content-1, #left-content-2, #left-content-3, #left-content-4, #right-content-video
+{
+    position: relative;
+    margin: 5px;
+}
+#right-content h2 {
+    text-align: center;
+}
+#left-content img:hover {
+    scale: 1.03;
+}
