@@ -1,10 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity=
+            "sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-$END$
+<div id="header">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary p-0" style="background-color: #f8f9fa;">
+        <div class="container-fluid" style="background-color: #ffffff">
+            <a href="https://www.microsoft.com/vi-vn/" target="_blank"><img src="microsoft.png"
+                                                                            alt="microsoft logo"></a>
+            <!--Button responsive-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--HEADER-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.microsoft.com/en-us/surface"
+                           target="_blank" style="font-size: 1rem">Surface</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Computers
+                        </a>
+                        <ul class="dropdown-menu">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <ul class="dropdown-menu-child">
+                                            <li><a class="dropdown-item" href="#"><b>2-in-1 PCs</b></a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Pro 9</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Pro 7+</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Go 3</a></li>
+                                            <li><a class="dropdown-item" href="#">Explore all 2-in-1 PCs</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul class="dropdown-menu-child">
+                                            <li><a class="dropdown-item" href="#"><b>Laptops</b></a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Laptop 5</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Laptop Studio+</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Laptop Go 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Explore all laptop</a></li>
+                                        </ul>
+                                    </td>
+                                    <td rowspan="3">
+                                        <ul class="dropdown-menu-child">
+                                            <li><a class="dropdown-item" href="#"><b>All-in-One</b></a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Studio 2+</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul class="dropdown-menu-child">
+                                            <li><a class="dropdown-item" href="#"><b>Need help deciding</b></a></li>
+                                            <li><a class="dropdown-item" href="#">Compare Surface devices</a></li>
+                                            <li><a class="dropdown-item" href="#">Help me choose a Surface</a></li>
+                                            <li><a class="dropdown-item" href="#">Why Surface</a></li>
+                                            <li><a class="dropdown-item" href="#">Learning Resources</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Computer For Business
+                        </a>
+                        <ul class="dropdown-menu fs-.1">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li><a class="dropdown-item" href="#"><b>2-in-1 Tablets</b></a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Pro 9 for Business</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Pro 8 for Business</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Go 3 for Business</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Pro 7+ for Business</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li><a class="dropdown-item" href="#"><b>Laptops</b></a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Laptop 5 for Business</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Laptop Studio for Business</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Surface Laptop Go 2 for Business</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Surface Laptop SE for Education</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li><a class="dropdown-item" href="#"><b>Small and Large Screens</b></a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Surface Duo 2 for Business</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Studio 2+ for Business</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Surface Hub 2S</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <ul>
+                                            <li><a class="dropdown-item" href="#"><b>Accessories</b></a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Hub 2S</a></li>
+                                            <li><a class="dropdown-item" href="#">All Accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Surface Headphone 2+</a></li>
+                                            <li><a class="dropdown-item" href="#">Teams Accessories</a></li>
+                                        </ul>
+                                    </td>
+                                    <td>>
+                                        <ul>
+                                            <li><a class="dropdown-item" href="#"><b>Need help deciding?</b></a></li>
+                                            <li><a class="dropdown-item" href="#">Compare Surface devices for
+                                                Business</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Accessories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Surface Pro accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Surface 7 Pro + accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Surface Laptop accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Surface Go accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Surface Studio accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Studio Headphone 2</a></li>
+                            <li><a class="dropdown-item" href="#">Studio Earbud</a></li>
+                            <li><a class="dropdown-item" href="#">All Surface accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Shop now
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Surface Bundle</a></li>
+                            <li><a class="dropdown-item" href="#">Certified refurbished Surface</a></li>
+                            <li><a class="dropdown-item" href="#">All Surface divices</a></li>
+                            <li><a class="dropdown-item" href="#">Surface repair parts</a></li>
+                            <li><a class="dropdown-item" href="#">Where to buy</a></li>
+                            <li><a class="dropdown-item" href="#">Personal shopping appointments</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                           href="https://support.microsoft.com/en-us/surface"
+                           target="_blank">Support</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active p-1" aria-current="page"
+                           href="https://support.microsoft.com/en-us/surface"
+                           target="_blank">
+                            <button type="button" class="shop-deals">SHOP DEALS</button>
+                        </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--HEADLINK-->
+<div id="head-link">
+    <div id="abcd">
+        <a href="https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=store_surfacedeals_topstripe_flex_payments_042023"
+           target="_blank">
+            Buy now, pay later—flexible payment options that start at 0% APR are now available. Learn more > </a>
+    </div>
+</div>
+
+<!--MAIN-->
+<div id="main">
+    <div class="container">
+        <div class="row">
+            <div class="right-content col-lg-5 col-md-8 col-sm-10">
+                <div>
+                    <p class="right-content child-1">Laptops designed by Microsoft</p>
+                </div>
+                <div>
+                    <p class="right-content child-2">
+                        Save on back-to-school essentials now. Portability, power, flexibility, speed—whatever you’re
+                        after, there’s a Surface to match.
+                    </p>
+                </div>
+                <div class="right-content option-a">
+                    <div class="col-lg-3 col-md-6 options option-1">Shop deals</div>
+                    <div class="col-lg-3 col-md-6 options option-2">Explore all</div>
+                    <div class="col-lg-3 col-md-6 options option-3">Surface Laptop 5</div>
+                </div>
+            </div>
+            <div class="left-content col-lg-7 col-md-8 col-sm-10">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row option-b">
+            <div class="col-lg-2 col-md-3 col-sm-6 option-b-child">
+                <div><img src="icon/icon1.png"/></div>
+                <div class="option-b-child child"> Compare devices</div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 option-b-child">
+                <div><img src="icon/icon2.png"/></div>
+                <div class="option-b-child child"> Help me choses</div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 option-b-child">
+                <div><img src="icon/icon3.png"/></div>
+                <div class="option-b-child child"> Surface deal</div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 option-b-child">
+                <div><img src="icon/icon4.png"/></div>
+                <div class="option-b-child child"> Why Surface</div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 option-b-child">
+                <div><img src="icon/icon5.png"/></div>
+                <div class="option-b-child child"> Surface for Education</div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 option-b-child">
+                <div><img src="icon/icon6.png"/></div>
+                <div class="option-b-child child"> Surface for Business</div>
+            </div>
+        </div>
+    </div>
+    <!--GRID 1-->
+    <div class="container">
+        <div class="row body-content-1">
+            <div class="col-lg-12 col-md-6">
+                <h1>For all the ways you create</h1>
+            </div>
+            <div class="col-lg-12 col-md-6">
+                <h2>2-in-1 PCS <a href="https://www.microsoft.com/en-us/surface/devices/surface-pro-models"
+                                  target="_blank">
+                    <button type="button" class="btn btn-dark">See all Surface 2-in-1 PCs</button>
+                </a></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container grid-1">
+        <div class="row">
+            <div class="col-xl-6 shadow-sm">
+                <video class="product-card-main" width="100%" controls loop>
+                    <source src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/MSFT_Surface_Home_Surface-Pro-9_Platinum_360-video"
+                            type="video/webm">
+                </video>
+            </div>
+
+            <div class="row col-xl-3">
+                <div class="col-xl-6 col-sm-10">
+                    <div class="card col-xl-6 col-sm-10 product-card" style="width: 18rem;">
+                        <img src="icon/surface%20pro%209.png" alt="">
+                        <div class="card-body text-center">
+                            <a href="https://www.microsoft.com/en-us/d/surface-pro-9/93vkd8np4fvk?comp=top&activetab=pivot:overviewtab"
+                               target="_blank">Surface Pro 9</a>
+
+                            <div><input type="checkbox"> Compare</div>
+                        </div>
+                    </div>
+                    <div class="card col-xl-6 col-sm-10 product-card" style="width: 18rem;">
+                        <img src="icon/surface%20pro%207.png" alt="">
+                        <div class="card-body text-center">
+                            <a href="https://www.microsoft.com/en-us/d/surface-pro-7-plus-and-type-cover-bundle/8ntr2b19vr2j?comp=top"
+                               target="_blank">Surface Pro 7+</a>
+                            <div><input type="checkbox"> Compare</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-xl-3">
+                <div class="col-xl-6 col-sm-10">
+                    <div class="card col-xl-6 col-sm-10 product-card" style="width: 18rem;">
+                        <img src="icon/surface go 3.png"/>
+                        <div class="card-body text-center">
+                            <a href="https://www.microsoft.com/en-us/d/surface-pro-8/8qwcrtq8v8xg?comp=top"
+                               target="_blank">Surface Pro 8</a>
+                            <div><input type="checkbox"> Compare</div>
+                        </div>
+                    </div>
+                    <div class="card col-xl-6 col-sm-10 product-card" style="width: 18rem;">
+                        <img src="icon/surface%20pro%209.png" alt="">
+                        <div class="card-body text-center">
+                            <a href="https://www.microsoft.com/en-us/d/surface-go-3/904h27d0cbwn?comp=top"
+                               target="_blank">Surface Go 3</a>
+                            <div><input type="checkbox"> Compare
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--GRID-2-->
+    <div class="container">
+        <div class="row body-content-1">
+            <div class="col-lg-12 col-md-6">
+                <h2>Laptops<a href="https://www.microsoft.com/en-us/surface/devices/surface-laptop-models"
+                              target="_blank">
+                    <button type="button" class="btn btn-dark">Explore all Surface Laptops</button>
+                </a></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container grid-1">
+        <div class="row">
+
+            <div class="row col-xl-3">
+                <div class="col-xl-6 col-sm-10">
+                    <div class="card col-xl-6 col-sm-10 product-card" style="width: 18rem;">
+                        <img src="icon/13 5.png"/>
+                        <div class="card-body text-center">
+                            <a href="https://www.microsoft.com/en-us/d/surface-laptop-5/8xn49v61s1bn?comp=top&cl=gr"
+                               target="_blank">Surface Laptop 5 13.5"</a>
+
+                            <div><input type="checkbox"> Compare</div>
+                        </div>
+                    </div>
+                    <div class="card col-xl-6 col-sm-10 product-card" style="width: 18rem;">
+                        <img src="icon/15.png"/>
+                        <div class="card-body text-center">
+                            <a href="https://www.microsoft.com/en-us/d/surface-laptop-5/8xn49v61s1bn?comp=top&cl=sr&activetab=pivot:overviewtab"
+                               target="_blank">Surface Laptop 5</a>
+                            <div><input type="checkbox"> Compare</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-xl-3">
+                <div class="col-xl-6 col-sm-10">
+                    <div class="card col-xl-6 col-sm-10 product-card" style="width: 18rem;">
+                        <img src="icon/studio.png"/>
+                        <div class="card-body text-center">
+                            <a href="https://www.microsoft.com/en-us/d/surface-laptop-studio/8srdf62swkpf?activetab=pivot:overviewtab"
+                               target="_blank">Surface Laptop Studio</a>
+                            <div><input type="checkbox"> Compare</div>
+                        </div>
+                    </div>
+                    <div class="card col-xl-6 col-sm-10 product-card" style="width: 18rem;">
+
+                        <img src="icon/go2.png"/>
+                        <div class="card-body text-center">
+                            <a href="https://www.microsoft.com/en-us/d/surface-laptop-go-2/8pglpv76mjhn?comp=top&activetab=pivot:overviewtab"
+                               target="_blank">Surface Go 2</a>
+                            <div><input type="checkbox"> Compare
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 shadow-sm">
+                <video class="product-card-main-2" width="100%" controls loop>
+                    <source src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/MSFT_Surface_Home_Surface-Laptop-5-13-inch_Sage_360-video"
+                            type="video/webm">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!--GIRD-3-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-sm-6">
+                <div><h1>All-in-One</h1></div>
+                <div class="grid-3-child-1">
+                    <div><img src="icon/grid3-1.png"/></div>
+                    <div><a href="https://www.microsoft.com/en-us/d/surface-studio-2-plus/8vlfqc3597k4"
+                            target="_blank">Surface Studio 2+</a>
+                        <br>
+                        <input type="checkbox"> Compare
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-sm-6">
+                <div><h1>Need help deciding?</h1></div>
+                <div class="grid-3-child-1">
+                    <div><img src="icon/grid3-2.png"/></div>
+                    <div><a href="https://www.microsoft.com/en-us/surface/devices/help-me-choose"
+                            target="_blank">Let us help you choose a Surface</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CAROUSEL-->
+    <div class="container mt-5 slide-bottom">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active slide-button" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="slide-button"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="slide-button"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="icon/carousel1.jpg" class="d-block w-2" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="bottom-content-slide">
+                            <div class="bottom-content-slide child-1">
+                                <h5>Save up to $351 on Surface Pro 9</h5>
+                                <p>Ready, set, go anywhere with the most portable Surface touchscreen 2-in-1 yet.</p>
+                            </div>
+                            <div class="bottom-content-slide child-2">
+                                <a href="https://www.microsoft.com/en-us/d/surface-go-3/904h27d0cbwn?icid=surface-carousel-Go3-3&activetab=pivot:overviewtab"
+                                   target="_blank">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="icon/carousel2.png" class="d-block w-2" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="bottom-content-slide">
+                            <div class="bottom-content-slide child-1">
+                                <h5>Save up to $800 on Surface Laptop 4</h5>
+                                <p>Do it all with a perfect balance of sleek design, speed, and immersive audio.</p>
+                            </div>
+                            <div class="bottom-content-slide child-2">
+                                <a href="https://www.microsoft.com/en-us/d/surface-laptop-4/946627fb12t1?icid=surface-carousel-L4-4"
+                                   target="_blank">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="icon/carousel3.png" class="d-block w-2" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="bottom-content-slide">
+                            <div class="bottom-content-slide child-1">
+                                <h5>Save up to $400 on Surface Laptop 5</h5>
+                                <p>Study smarter with Surface Laptop 5, the beautiful Windows 11 touchscreen laptop</p>
+                            </div>
+                            <div class="bottom-content-slide child-2">
+                                <a href="https://www.microsoft.com/en-us/d/surface-laptop-5/8xn49v61s1bn?icid=surface-carousel-2-SurfaceLaptop5_89304_08142023&activetab=pivot:overviewtab"
+                                   target="_blank">BUY NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span style="background-color: black" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span  style="background-color: black" class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!--BACK-TO-TOP-->
+    <button onclick="topFunction()" type="button" id="my-button">Back to top</button>
+    <!--MAIN-END-->
+</div>
+<div id="footer"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+<script>
+    // Get the button:
+    let mybutton = document.getElementById("my-button");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
 </body>
 </html>
