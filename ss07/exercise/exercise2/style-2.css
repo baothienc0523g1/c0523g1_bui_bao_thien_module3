@@ -21,7 +21,6 @@ body {
     height: 100%;
 }
 #right-content {
-
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -61,18 +60,27 @@ body {
     #content {
         height: 900px;
     }
-    #left-content {
-        display: none;
-    }
     #right-content {
-        border: 1px solid #0a3622;
         border-radius: 5px;
         height: 600px;
     }
     .description {
         display: none;
     }
-
+    #left-content {
+        height: 200px;
+    }
+    .mobile-picture {
+        display: flex;
+        flex-direction: row;
+    }
+    .mobile-text {
+        text-align: center;
+    }
+    .child-1 {
+        padding: 2%;
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 1024px) {
     .col-1 {width: 8.33%;}
@@ -128,7 +136,7 @@ a {
 .copy-right {
     font-family: Inter, serif;
 }
-.left-content {
+.mobile-text {
     text-align: center;
 }
 .child-1 img {
