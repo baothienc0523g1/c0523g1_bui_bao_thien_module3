@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ec8efad-229a-48ce-bd5a-bde3b2f84bfd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../ss08/exercise/exercise_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss08/exercise/exercise_2/.idea/exercise_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss08/exercise/exercise_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss08/exercise/exercise_2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ss08/exercise/exercise_2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/c0523g1_bui_bao_thien_module3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/c0523g1_bui_bao_thien_module3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../CSS Test/case-study-team2/src/main/java/helloworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../CSS Test/case-study-team2/src/main/java/helloworld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../CSS Test/demo/src/main/java/com/example/demo/ServerTimeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study_web/C0523G1-Repo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_web/C0523G1-Repo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss09_fix/server-time/src/main/java/ss09/practice/practice_1/ServerTimeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss09_fix/server-time/src/main/java/ss09/practice/practice_2/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ss09_fix/server-time/src/main/webapp/ss09_practice_2.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2UWNzmZtgpvuEW2RLBOovgmwj0Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ec8efad-229a-48ce-bd5a-bde3b2f84bfd" name="Changes" comment="" />
+      <created>1693051642763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693051642763</updated>
+      <workItem from="1693051643789" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
