@@ -5,18 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b1c4a15-2161-4384-8ee4-eda28282b35e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo2/ProductDiscountCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../.idea/c0523g1_bui_bao_thien_module3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/c0523g1_bui_bao_thien_module3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../CSS Test/case-study-team2/src/main/java/helloworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../CSS Test/case-study-team2/src/main/java/helloworld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../CSS Test/demo/src/main/java/com/example/demo/ServerTimeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../case_study_web/C0523G1-Repo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study_web/C0523G1-Repo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/TranslationServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ss09_fix/server-time/src/main/java/ss09/practice/practice_1/ServerTimeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ss09_fix/server-time/src/main/java/ss09/practice/practice_2/LoginServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../ss09_fix/server-time/src/main/webapp/ss09_practice_2.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/data/customer.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/utilities/MyRegex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/utilities/ReadAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_mvc/view/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module1" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss09_tdd/practice/calculator/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss09_tdd/practice/calculator/SimpleCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss19_regex/practice/practice_2/AccountSyntax.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss19_regex/practice/practice_2/AccountSyntax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss19_regex/practice/practice_2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss19_regex/practice/practice_2/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss20_design_pattern/practice/practice3/BookSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss20_design_pattern/practice/practice3/BookSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice1/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice1/MathCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice1/MathCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice1/MathCalculatorProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice1/MathCalculatorProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/SocialMediaFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/SocialMediaFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/SocialShare.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/SocialShare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/Twitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/Twitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/TimChuoiLienTucDaiNhat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo2/controller/discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo2/controller/DiscountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/src/service/customer/customer_sub/CustomerEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/service/customer/customer_sub/CustomerEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/src/utilities/ReadAndWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/utilities/ReadAndWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +66,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -55,7 +85,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HP/Downloads/codegym 3/ss9/ss9/src/main/webapp/index.jsp",
+    "last_opened_file_path": "D:/GIT - Bai tap/c0523g1_bui_bao_thien_module3/ss09/exercise/demo2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -161,6 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692936343423</updated>
       <workItem from="1692936344183" duration="1705000" />
+      <workItem from="1693210030753" duration="22000" />
     </task>
     <servers />
   </component>

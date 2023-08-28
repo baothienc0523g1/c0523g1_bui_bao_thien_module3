@@ -5,11 +5,10 @@ import com.example.demo2.service.DiscountCalculator;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
-import javax.xml.ws.Service;
 import java.io.IOException;
 
 @WebServlet(name = "discount", value = "/discount")
-public class discount extends HttpServlet {
+public class DiscountServlet extends HttpServlet {
     private DiscountCalculator discountCalculator = new DiscountCalculator();
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
