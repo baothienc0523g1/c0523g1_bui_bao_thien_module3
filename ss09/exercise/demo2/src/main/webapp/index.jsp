@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>[Bài tập] Ứng dụng Product Discount Calculator</h1>
-<form action="/display-discount" method="post">
+<form action="/discount" method="post">
     <h4>Description: The white iPhone 3G(S) is very beautiful, but the black one is too when it is in good shape</h4>
     <table>
         <tr>
