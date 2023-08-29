@@ -10,7 +10,7 @@ import java.io.IOException;
 
 @WebServlet(name = "calculator", value = "/calculator")
 public class CalculatorServlet extends HttpServlet {
-    private ICalculator c = new Calculator();
+    private ICalculator calculator = new Calculator();
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -22,7 +22,7 @@ public class CalculatorServlet extends HttpServlet {
         Double second = Double.parseDouble(request.getParameter("second"));
         Double result = null;
         String conditional = request.getParameter("operator");
-        result = c.calculator(conditional, first, second);
+        result = calculator.calculator(conditional, first, second);
         request.setAttribute("first",first);
         request.setAttribute("second",second);
         request.setAttribute("result",result);
