@@ -10,15 +10,17 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
 
+
 @WebServlet(name = "CustomerServlet", value = "/customers")
-public class customer extends HttpServlet {
+public class CustomerServlet extends HttpServlet {
     private final IService service = new Service();
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String action = request.getParameter("action");
 
-        if(action == null) {
+        if (action == null) {
             action = "";
         }
         switch (action) {
@@ -203,6 +205,4 @@ public class customer extends HttpServlet {
             throw new RuntimeException(e);
         }
     }
-
-
 }
