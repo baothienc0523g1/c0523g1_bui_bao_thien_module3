@@ -125,14 +125,27 @@ public class UserServlet extends HttpServlet {
     private void findByCountry(HttpServletRequest request, HttpServletResponse response) {
         String country = request.getParameter("country");
         List<User> findResult = service.findByCountry(country);
-        request.setAttribute("findResult", findResult);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("user/find.jsp");
-        try {
-            dispatcher.forward(request, response);
-        } catch (ServletException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        if (findResult.isEmpty()) {
+            String notice = "Cant find customer with country: " + country;
+            request.setAttribute("notice",notice);
+            RequestDispatcher dispatcher = request.getRequestDispatcher("user/find-empty.jsp");
+            try {
+                dispatcher.forward(request, response);
+            } catch (ServletException e) {
+                throw new RuntimeException(e);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        } else {
+            request.setAttribute("findResult", findResult);
+            RequestDispatcher dispatcher = request.getRequestDispatcher("user/find.jsp");
+            try {
+                dispatcher.forward(request, response);
+            } catch (ServletException e) {
+                throw new RuntimeException(e);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 
