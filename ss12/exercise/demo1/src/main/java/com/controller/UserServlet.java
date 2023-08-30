@@ -90,6 +90,7 @@ public class UserServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         String action = request.getParameter("action");
         if (action == null) {
             action = "";
@@ -109,10 +110,22 @@ public class UserServlet extends HttpServlet {
                 break;
         }
     }
+
+    private void deleteUser(HttpServletRequest request, HttpServletResponse response) {
+        int id_delete = Integer.parseInt(request.getParameter("id_delete"));
+        this.service.delete(id_delete);
+
+        try {
+            response.sendRedirect("/users?action=show-list");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     private void findByCountry(HttpServletRequest request, HttpServletResponse response) {
         String country = request.getParameter("country");
         List<User> findResult = service.findByCountry(country);
-        request.setAttribute("findResult",findResult);
+        request.setAttribute("findResult", findResult);
         RequestDispatcher dispatcher = request.getRequestDispatcher("user/find.jsp");
         try {
             dispatcher.forward(request, response);
@@ -137,17 +150,6 @@ public class UserServlet extends HttpServlet {
             throw new RuntimeException(e);
         }
 
-    }
-
-    private void deleteUser(HttpServletRequest request, HttpServletResponse response) {
-        int id_delete = Integer.parseInt(request.getParameter("id_delete"));
-        this.service.delete(id_delete);
-
-        try {
-            response.sendRedirect("/users?action=show-list");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
     }
 
     private void addUser(HttpServletRequest request, HttpServletResponse response) {

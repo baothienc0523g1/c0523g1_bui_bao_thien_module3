@@ -75,7 +75,7 @@
 <div class="modal" tabindex="-1" id="exampleModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form action="/user?action=delete" method="post">
+            <form action="/users?action=delete" method="post">
                 <div class="modal-header">
                     <h5 class="modal-title">Remove User Confirmation</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
