@@ -37,9 +37,6 @@
       <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/Twitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/ss21_structural_design_pattern/practice/practice2/Twitter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../c0523g1_bui_bao_thien_module2/src/z_test_case/TimChuoiLienTucDaiNhat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo2/controller/discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo2/controller/DiscountServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../case_study/src/service/customer/customer_sub/CustomerEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/service/customer/customer_sub/CustomerEdit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../case_study/src/utilities/ReadAndWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/utilities/ReadAndWrite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../case_study/src/z_bai_tap/Bai13.java" afterDir="false" />
@@ -191,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692936343423</updated>
       <workItem from="1692936344183" duration="1705000" />
-      <workItem from="1693210030753" duration="22000" />
+      <workItem from="1693210030753" duration="362000" />
     </task>
     <servers />
   </component>

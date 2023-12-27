@@ -12,4 +12,5 @@ public interface IUserRepository {
     void delete(int id);
     List<User> findByCountry(String country);
     List<User> sortByCountry();
+
 }

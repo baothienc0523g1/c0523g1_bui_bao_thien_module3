@@ -38,7 +38,12 @@
             <tr>
                 <th>Country</th>
                 <td>
-                    <input type="text" name="country" id="country" size="45"/>
+                    <input type="text" name="country" id="country" size="15"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Save"/>
                 </td>
             </tr>
         </table>
